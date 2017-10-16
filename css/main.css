@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    
+}
+button {
+    border: none;
+    background: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    cursor:pointer;
+    
+}
+
+.item, .left, .right{
+  display: inline-block;
+  vertical-align: top;
+}
+.item {
+   display: block;
+   padding: 30px;
+   clear: both;
+}
+.firstline {
+    display: inline;
+    padding: 30px;
+    text-transform: capitalize;
+
+}
+.right {
+    position: relative;
+    top: 30px;
+}
+p {
+    display: inline;
+    padding: 15px;
+}
+
+
+
+.item #value{
+  min-width: 400px;
+  height: 50px;
+  border: 2px solid #000;
+  
+}
+
+.chooseCity{
+  width: 250px;
+  height: 400px;
+  border: 2px solid #000;
+  margin-bottom: 15px;
+  
+}
+
+.chooseCity ul {
+  list-style-type: none;
+  padding-left: 0px;
+}

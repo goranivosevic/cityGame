@@ -1,0 +1,50 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Oblasti Srbije</title>
+  <meta name="description" content="Igra">
+  <meta name="author" content="Goran Ivošević">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/main.css">
+  <script src="https://unpkg.com/vue"></script>
+</head>
+
+<body>
+  
+      <div class="col-sm-8 left">
+          
+                 <div class="firstline">Oblast: <span id="area"></span></div>
+                 <div class="firstline">Vreme: <span id="time"></span>
+                 <label id="minutes">00</label>minutes:<label id="seconds">00</label>secondes
+              </div>
+              <div class="item">
+                <input  id='value' type="text" autocomplete="on" placeholder="Unesite željini grad"/>
+                <div id="dropdown">
+                <select name="list" id="list"></select>
+                </div>
+              </div>
+              <div class="item">
+                <button class="btn btn-lg btn-primary" id="dodajUListu">Dodaj u listu</button>
+              </div>
+            </div>
+            <div class="col-sam-4 right">
+             <p>Lista ubačenih gradova</p>
+              <div class="chooseCity">
+                <table id="choosen">
+                </table>
+              </div>
+              <div class="">
+                <button class="btn btn-lg btn-outline-success" id="zavrsiIgru">Završi igru</button>
+              </div>
+            </div>
+          
+
+  
+
+
+
+  <script src="js/main.js"></script>
+  </body>
+</html>
